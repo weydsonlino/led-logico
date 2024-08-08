@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import '../style/reset.css';
+	import '../style/globals.css';
+</script>
+
+<body>
+	<h1 id="tittle">LIGHTS OUT</h1>
+	<button class="first-button">Play</button>
+	<button class="buttons">How to play</button>
+	<button class="buttons">About</button>
+</body>
