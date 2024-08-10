@@ -6,7 +6,7 @@
 		['Felipe Romero', '..'],
 		['Jaqueline Albertina', '..'],
 		['Marcos Vinicius', '..'],
-		['Paulo Ricardos', '..'],
+		['Paulo Ricardo', '..'],
 		['Weydson Lino', '..']
 	];
 </script>
