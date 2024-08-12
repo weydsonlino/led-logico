@@ -9,7 +9,9 @@
 	--font-tittle: 'Zen Loop', cursive;
 	--font-button: 'itim', cursive;
 	--font-text: 'Inter', sans-serif;
+	--font-text-moves: 'IBM Plex Mono', monospace;
 }
+
 * {
 	margin: 0;
 	padding: 0;
@@ -24,14 +26,14 @@
 	overflow-x: hidden;
 }
 body::-webkit-scrollbar {
-	width: 15px;               
-  }
-  
+	width: 15px;
+}
+
 body::-webkit-scrollbar-track {
-	background: var(--button-color);        
+	background: var(--button-color);
 }
 body::-webkit-scrollbar-thumb {
-	background-color:yellow;          
+	background-color: var(--yellow);
 }
 main {
 	display: flex;
@@ -43,13 +45,16 @@ main {
 	overflow-x: hidden;
 	color: var(--font-color);
 }
-main.about {
+main.pages {
 	height: max-content;
 	width: 100vw;
 }
 main#home {
 	height: 100vh;
 	width: 100vw;
+}
+main.game {
+	height: 100vh;
 }
 .nav-home {
 	margin-top: 90px;
@@ -82,6 +87,7 @@ main#home {
 	font-size: 24px;
 	font-family: var(--font-button);
 	cursor: pointer;
+	text-align: center;
 }
 .buttons:hover {
 	background-color: var(--yellow);
@@ -94,6 +100,9 @@ header {
 	justify-content: flex-start;
 	width: 100vw;
 	margin-bottom: 50px;
+}
+header.header-game {
+	margin-bottom: 0px;
 }
 .container-text {
 	margin-top: 40px;
@@ -169,4 +178,62 @@ header {
 }
 .link {
 	color: var(--tittle-color);
+}
+.link:hover {
+	cursor: pointer;
+}
+.game-bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 51px;
+	margin-left: 50px;
+	width: 94vw;
+}
+#container-game {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: max-content;
+	background-color: var(--gray);
+	padding: 10px;
+	border-radius: 10px;
+}
+.row-game {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin: 2px;
+}
+.row-game button {
+	width: 100px;
+	height: 100px;
+	margin: 5px 5px 5px 5px;
+	border-radius: 10px;
+}
+.row-game button:hover {
+	cursor: pointer;
+}
+.game-footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+.moves {
+	font-family: var(--font-text-moves);
+	font-weight: 400;
+	font-style: normal;
+	font-size: 34px;
+}
+.button-dica {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	width: 94vw;
+	text-align: center;
 }

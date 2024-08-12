@@ -1,6 +1,7 @@
 <script lang="ts">
 	import '../../style/reset.css';
 	import '../../style/globals.css';
+	import Header from '../../components/header.svelte';
 
 	const alunos = [
 		['Felipe Romero', 'https://github.com/feliperasilva'],
@@ -12,13 +13,9 @@
 </script>
 
 <body class="pages">
-	<header>
-		<nav class="buttons-bar">
-			<a href="/"><button class="buttons">back</button></a>
-		</nav>
-	</header>
+	<Header />
 
-	<main class="about">
+	<main class="pages">
 		<h2 class="tittle">About</h2>
 		<div class="container-text about">
 			<p class="text">

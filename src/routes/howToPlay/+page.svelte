@@ -1,15 +1,12 @@
 <script lang="ts">
 	import '../../style/reset.css';
 	import '../../style/globals.css';
+	import Header from '../../components/header.svelte';
 </script>
 
 <body class="pages">
-	<main class="about">
-		<header>
-			<nav class="buttons-bar">
-				<a href="/"><button class="buttons">back</button></a>
-			</nav>
-		</header>
+	<Header />
+	<main class="pages">
 		<h3 class="tittle">How To play</h3>
 		<div class="container-text">
 			<p class="text">
