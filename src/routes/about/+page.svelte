@@ -11,14 +11,14 @@
 	];
 </script>
 
-<main class="pages">
+<body class="pages">
 	<header>
 		<nav class="buttons-bar">
 			<a href="/"><button class="buttons">back</button></a>
 		</nav>
 	</header>
 
-	<body class="about">
+	<main class="about">
 		<h2 class="tittle">About</h2>
 		<div class="container-text about">
 			<p class="text">
@@ -37,5 +37,5 @@
 				</div>
 			{/each}
 		</section>
-	</body>
-</main>
+	</main>
+</body>

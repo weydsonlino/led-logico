@@ -3,40 +3,42 @@
 	import '../../style/globals.css';
 </script>
 
-<body class="about">
-	<header>
-		<nav class="buttons-bar">
-			<a href="/"><button class="buttons">back</button></a>
-		</nav>
-	</header>
-	<h3 class="tittle">How To play</h3>
-	<div class="container-text">
-		<p class="text">
-			This is a simple puzzle game. The aim is to turn off all the lights.<br /><br />
+<body class="pages">
+	<main class="about">
+		<header>
+			<nav class="buttons-bar">
+				<a href="/"><button class="buttons">back</button></a>
+			</nav>
+		</header>
+		<h3 class="tittle">How To play</h3>
+		<div class="container-text">
+			<p class="text">
+				This is a simple puzzle game. The aim is to turn off all the lights.<br /><br />
 
-			Tap a button. The neighboring buttons will light up too, or turn off – depending on what state
-			they were in before.
-		</p>
-	</div>
-	<div class="box">
-		<button class="rectangle-off"></button>
-		<button class="rectangle-on"></button>
-		<button class="rectangle-off"></button>
-		<button class="rectangle-on"></button>
-		<button class="rectangle-off"></button>
-		<button class="rectangle-on"></button>
-		<button class="rectangle-off"></button>
-		<button class="rectangle-on"></button>
-		<button class="rectangle-off"></button>
-	</div>
-	<div class="container-text htp">
-		<p class="text">
-			This Web Site is a remake of the original Lights Out handheld game that was manufactured by
-			Tiger Electronics. Here's a <a
-				class="link"
-				href="https://en.wikipedia.org/wiki/Lights_Out_(game)"
-				target="_blank">more detailed description.</a
-			>
-		</p>
-	</div>
+				Tap a button. The neighboring buttons will light up too, or turn off – depending on what
+				state they were in before.
+			</p>
+		</div>
+		<div class="box">
+			<button class="rectangle-off"></button>
+			<button class="rectangle-on"></button>
+			<button class="rectangle-off"></button>
+			<button class="rectangle-on"></button>
+			<button class="rectangle-off"></button>
+			<button class="rectangle-on"></button>
+			<button class="rectangle-off"></button>
+			<button class="rectangle-on"></button>
+			<button class="rectangle-off"></button>
+		</div>
+		<div class="container-text htp">
+			<p class="text">
+				This Web Site is a remake of the original Lights Out handheld game that was manufactured by
+				Tiger Electronics. Here's a <a
+					class="link"
+					href="https://en.wikipedia.org/wiki/Lights_Out_(game)"
+					target="_blank">more detailed description.</a
+				>
+			</p>
+		</div>
+	</main>
 </body>
