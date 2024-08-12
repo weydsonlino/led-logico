@@ -112,3 +112,99 @@ header {
 	font-size: 24px;
 	font-family: var(--font-text)
 }
+.container-htp{
+	margin-top: 40px;
+	margin-bottom: 35px;
+
+}
+.box{
+    margin-bottom: 35px;
+	background-color: var(--gray);
+	width: 200px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.rectangle1{
+	margin: 2px;
+	background-color: var(--black);
+	width: 58px;
+	height: 59px;
+	border-radius: 15px;
+	border: none;
+}	
+.rectangle2{
+	margin: 2px;
+	background-color:var(--yellow);
+	width: 58px;
+	height: 59px;
+	border-radius: 15px;
+	border: none;
+
+}
+.rectangle3{
+	margin: 2px;
+	background-color: var(--black);
+	width: 58px;
+	height: 59px;
+	border-radius: 15px;
+	border: none;
+}
+.rectangle4{
+	margin: 2px;
+	background-color: var(--yellow);
+	width: 58px;
+	height: 59px;
+	border-radius: 15px;
+	border: none;
+}
+.rectangle5{
+	margin: 2px;
+	background-color: var(--yellow);
+	width: 58px;
+	height: 59px;
+	border-radius: 15px;
+	border: none;
+	cursor: pointer;
+}
+.rectangle6{
+	margin: 2px;
+	background-color: var(--yellow);
+	width: 58px;
+	height: 59px;
+	border-radius: 15px;
+	border: none;
+}
+.rectangle7{
+	margin: 2px;
+	background-color: var(--black);
+	width: 58px;
+	height: 59px;
+	border-radius: 15px;
+	border: none;
+}
+.rectangle8{
+	margin: 2px;
+	background-color: var(--yellow);
+	width: 58px;
+	height: 59px;
+	border-radius: 15px;
+	border: none;
+}
+.rectangle9{
+	margin: 2px;
+	background-color: var(--black);
+	width: 58px;
+	height: 59px;
+	border-radius: 15px;
+	border: none;
+}
+.link{
+	color: var(--tittle-color);
+}
