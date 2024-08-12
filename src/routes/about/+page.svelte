@@ -3,11 +3,11 @@
 	import '../../style/globals.css';
 
 	const alunos = [
-		['Felipe Romero', '..'],
+		['Felipe Romero', 'https://github.com/feliperasilva'],
 		['Jaqueline Albertina', '..'],
 		['Marcos Vinicius', '..'],
-		['Paulo Ricardo', '..'],
-		['Weydson Lino', '..']
+		['Paulo Ricardo', 'https://github.com/PauloRC0'],
+		['Weydson Lino', 'https://github.com/weydsonlino']
 	];
 </script>
 
@@ -18,9 +18,9 @@
 		</nav>
 	</header>
 
-	<body>
+	<body class="about">
 		<h2 class="tittle">About</h2>
-		<div class="container-about">
+		<div class="container-text about">
 			<p class="text">
 				This is a simple puzzle game. The aim is to turn off all the lights. <br /><br /><br />
 				Tap a button. The neighboring buttons will light up too, or turn off – depending on what state

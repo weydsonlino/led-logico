@@ -14,7 +14,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-  }
+}
 
 body {
 	display: flex;
@@ -28,6 +28,9 @@ body {
 	width: 100vw;
 	overflow-x: hidden;
 	color: var(--font-color);
+}
+body.about {
+	height: max-content;
 }
 .nav-home {
 	margin-top: 90px;
@@ -50,7 +53,6 @@ body {
 	align-items: center;
 	margin-top: 50px;
 	gap: 30px;
-	
 }
 .buttons {
 	background-color: var(--button-color);
@@ -72,16 +74,21 @@ header {
 	align-items: flex-start;
 	justify-content: flex-start;
 	width: 100vw;
-	margin-top: 40px;
+	margin-bottom: 50px;
 }
 .pages {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-.container-about {
+.container-text {
 	margin-top: 40px;
+}
+.container-text.about {
 	margin-bottom: 159px;
+}
+.container-text.htp {
+	margin-bottom: 100px;
 }
 .buttons-bar {
 	display: flex;
@@ -104,21 +111,21 @@ header {
 	align-self: center;
 	margin-right: 25px;
 	gap: 15px;
+	margin-bottom: 150px;
 }
 .students-name {
 	display: flex;
 	justify-content: center;
 	color: var(--font-color);
 	font-size: 24px;
-	font-family: var(--font-text)
+	font-family: var(--font-text);
 }
-.container-htp{
+.container-htp {
 	margin-top: 40px;
 	margin-bottom: 35px;
-
 }
-.box{
-    margin-bottom: 35px;
+.box {
+	margin-bottom: 35px;
 	background-color: var(--gray);
 	width: 200px;
 	height: 200px;
@@ -128,83 +135,24 @@ header {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-
 }
 
-.rectangle1{
-	margin: 2px;
-	background-color: var(--black);
-	width: 58px;
-	height: 59px;
-	border-radius: 15px;
-	border: none;
-}	
-.rectangle2{
-	margin: 2px;
-	background-color:var(--yellow);
-	width: 58px;
-	height: 59px;
-	border-radius: 15px;
-	border: none;
-
-}
-.rectangle3{
-	margin: 2px;
+.rectangle-off {
+	margin: 1px;
 	background-color: var(--black);
 	width: 58px;
 	height: 59px;
 	border-radius: 15px;
 	border: none;
 }
-.rectangle4{
-	margin: 2px;
+.rectangle-on {
+	margin: 1px;
 	background-color: var(--yellow);
 	width: 58px;
 	height: 59px;
 	border-radius: 15px;
 	border: none;
 }
-.rectangle5{
-	margin: 2px;
-	background-color: var(--yellow);
-	width: 58px;
-	height: 59px;
-	border-radius: 15px;
-	border: none;
-	cursor: pointer;
-}
-.rectangle6{
-	margin: 2px;
-	background-color: var(--yellow);
-	width: 58px;
-	height: 59px;
-	border-radius: 15px;
-	border: none;
-}
-.rectangle7{
-	margin: 2px;
-	background-color: var(--black);
-	width: 58px;
-	height: 59px;
-	border-radius: 15px;
-	border: none;
-}
-.rectangle8{
-	margin: 2px;
-	background-color: var(--yellow);
-	width: 58px;
-	height: 59px;
-	border-radius: 15px;
-	border: none;
-}
-.rectangle9{
-	margin: 2px;
-	background-color: var(--black);
-	width: 58px;
-	height: 59px;
-	border-radius: 15px;
-	border: none;
-}
-.link{
+.link {
 	color: var(--tittle-color);
 }
