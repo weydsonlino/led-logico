@@ -21,6 +21,17 @@
 	align-items: center;
 	background-color: var(--color-background);
 	background-image: url(../b471d641c2fb84308dfb016cbf4ac6bb.gif);
+	overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+	width: 15px;               
+  }
+  
+body::-webkit-scrollbar-track {
+	background: var(--button-color);        
+}
+body::-webkit-scrollbar-thumb {
+	background-color:yellow;          
 }
 main {
 	display: flex;
@@ -28,15 +39,17 @@ main {
 	align-items: center;
 	justify-content: center;
 	background-size: 50%;
-	width: 100%;
+	width: 100vw;
 	overflow-x: hidden;
 	color: var(--font-color);
 }
 main.about {
 	height: max-content;
+	width: 100vw;
 }
 main#home {
 	height: 100vh;
+	width: 100vw;
 }
 .nav-home {
 	margin-top: 90px;
