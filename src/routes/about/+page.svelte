@@ -33,7 +33,7 @@
 			{#each alunos as [aluno, github]}
 				<div class="container-students-name">
 					<h3 class="students-name">{aluno}</h3>
-					<a href={github}><button class="buttons">github</button></a>
+					<a href={github} target="_blank"><button class="buttons">github</button></a>
 				</div>
 			{/each}
 		</section>
