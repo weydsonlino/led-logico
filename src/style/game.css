@@ -1,0 +1,34 @@
+.game-page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(--color-background);
+	background-image: url(../b471d641c2fb84308dfb016cbf4ac6bb.gif);
+	overflow-x: hidden;
+}
+.game {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-size: 50%;
+	margin-top: 75px;
+	width: 100vw;
+	overflow-x: hidden;
+	color: var(--font-color);
+}
+.buttons-game {
+	background-color: var(--button-color);
+	color: var(--font-color);
+	padding: 15px 20px;
+	border-radius: 10px;
+	border: none;
+	font-size: 24px;
+	font-family: var(--font-button);
+	cursor: pointer;
+	text-align: center;
+}
+.buttons-game:hover {
+	background-color: var(--yellow);
+	color: var(--black);
+}

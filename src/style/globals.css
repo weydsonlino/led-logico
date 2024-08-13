@@ -53,9 +53,6 @@ main#home {
 	height: 100vh;
 	width: 100vw;
 }
-main.game {
-	height: 100vh;
-}
 .nav-home {
 	margin-top: 90px;
 }
