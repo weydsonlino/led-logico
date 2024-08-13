@@ -1,13 +1,13 @@
 <script lang="ts">
 	import '../../style/reset.css';
-	import '../../style/globals.css';
+	import '../../style/game.css';
 </script>
 
-<body class="pages game-page">
+<body class="game-page">
 	<header class="header-game">
 		<nav class="game-bar">
 			<a href="/"><button class="buttons">back</button></a>
-			<button class="buttons"><i class="fi fi-br-rotate-left"></i></button>
+			<button class="buttons-game"><i class="fi fi-br-rotate-left"></i></button>
 		</nav>
 	</header>
 	<main class="game">
@@ -34,7 +34,7 @@
 		<footer class="game-footer">
 			<h3 class="moves">MOVES : 0</h3>
 			<div class="button-dica">
-				<button class="buttons dica"><i class="fi fi-br-bulb"></i></button>
+				<button class="buttons-game"><i class="fi fi-br-bulb"></i></button>
 			</div>
 		</footer>
 	</main>
