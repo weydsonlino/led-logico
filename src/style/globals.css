@@ -161,7 +161,7 @@ header.header-game {
 }
 
 .rectangle-off {
-	margin: 1px;
+	margin: 2px;
 	background-color: var(--black);
 	width: 58px;
 	height: 59px;
@@ -169,7 +169,7 @@ header.header-game {
 	border: none;
 }
 .rectangle-on {
-	margin: 1px;
+	margin: 2px;
 	background-color: var(--yellow);
 	width: 58px;
 	height: 59px;

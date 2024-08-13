@@ -19,9 +19,7 @@
 		<h2 class="tittle">About</h2>
 		<div class="container-text about">
 			<p class="text">
-				This is a simple puzzle game. The aim is to turn off all the lights. <br /><br /><br />
-				Tap a button. The neighboring buttons will light up too, or turn off – depending on what state
-				they were in before.
+				This project was developed by students from the 1st period of the tsi course - IFPE Campus Igarassu in the imperative programming discipline of Professor Allan Diego Silva ,where we developed the Lights Out game.
 			</p>
 		</div>
 		<h2 class="tittle">Students</h2>

@@ -21,7 +21,7 @@
 			<button class="rectangle-on"></button>
 			<button class="rectangle-off"></button>
 			<button class="rectangle-on"></button>
-			<button class="rectangle-off"></button>
+			<button class="rectangle-on"></button>
 			<button class="rectangle-on"></button>
 			<button class="rectangle-off"></button>
 			<button class="rectangle-on"></button>
