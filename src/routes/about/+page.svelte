@@ -19,7 +19,7 @@
 		<h2 class="tittle">About</h2>
 		<div class="container-text about">
 			<p class="text">
-				This project was developed by students from the 1st period of the tsi course - IFPE Campus Igarassu in the imperative programming discipline of Professor Allan Diego Silva ,where we developed the Lights Out game.
+				This project was developed by students from the 1st period of the TSI course at IFPE Campus Igarassu, in the imperative programming discipline taught by Professor Allan Diego Silva. During the project, we developed the Lights Out game.
 			</p>
 		</div>
 		<h2 class="tittle">Students</h2>

@@ -7,13 +7,13 @@
 <body class="pages">
 	<Header />
 	<main class="pages">
-		<h3 class="tittle">How To play</h3>
+		<h3 class="tittle">How To Play</h3>
 		<div class="container-text">
 			<p class="text">
-				This is a simple puzzle game. The aim is to turn off all the lights.<br /><br />
+				This is a simple puzzle game. The goal is to turn off all the lights.<br /><br />
 
-				Tap a button. The neighboring buttons will light up too, or turn off – depending on what
-				state they were in before.
+				Tap a button. The neighboring buttons will also turn on or off, depending on their
+				previous state.
 			</p>
 		</div>
 		<div class="box">
@@ -29,7 +29,7 @@
 		</div>
 		<div class="container-text htp">
 			<p class="text">
-				This Web Site is a remake of the original Lights Out handheld game that was manufactured by
+				This Website is a remake of the original Lights Out handheld game that was manufactured by
 				Tiger Electronics. Here's a <a
 					class="link"
 					href="https://en.wikipedia.org/wiki/Lights_Out_(game)"
