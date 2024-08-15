@@ -6,7 +6,6 @@
 	background-color: var(--color-background);
 	background-image: url(../b471d641c2fb84308dfb016cbf4ac6bb.gif);
 	overflow-x: hidden;
-	height: 100vh;
 }
 .game {
 	display: flex;
