@@ -5,8 +5,8 @@
 
 	const alunos = [
 		['Felipe Romero', 'https://github.com/feliperasilva'],
-		['Jaqueline Albertina', '..'],
-		['Marcos Vinicius', '..'],
+		['Jaqueline Albertina', 'https://github.com/Jaquelinealbertina03'],
+		['Marcos Vinicius', 'https://github.com/Dido3535'],
 		['Paulo Ricardo', 'https://github.com/PauloRC0'],
 		['Weydson Lino', 'https://github.com/weydsonlino']
 	];
@@ -19,7 +19,9 @@
 		<h2 class="tittle">About</h2>
 		<div class="container-text about">
 			<p class="text">
-				This project was developed by students from the 1st period of the TSI course at IFPE Campus Igarassu, in the imperative programming discipline taught by Professor Allan Diego Silva. During the project, we developed the Lights Out game.
+				This project was developed by students from the 1st period of the TSI course at IFPE Campus
+				Igarassu, in the imperative programming discipline taught by Professor Allan Diego Silva.
+				During the project, we developed the Lights Out game.
 			</p>
 		</div>
 		<h2 class="tittle">Students</h2>
