@@ -16,6 +16,7 @@
 	margin-top: 75px;
 	width: 100vw;
 	overflow-x: hidden;
+	overflow-y: hidden;
 	color: var(--font-color);
 }
 .buttons-game {
@@ -32,4 +33,22 @@
 .buttons-game:hover {
 	background-color: var(--yellow);
 	color: var(--black);
+}
+.rectangle-on-game{
+	margin: 4px;
+	background-color: var(--yellow);
+	width: 58px;
+	height: 59px;
+	border-radius: 15px;
+	border: none;
+	cursor: pointer;
+}
+.rectangle-off-game{
+	margin: 4px;
+	background-color: var(--black);
+	width: 58px;
+	height: 59px;
+	border-radius: 15px;
+	border: none;
+	cursor: pointer;
 }

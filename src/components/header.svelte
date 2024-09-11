@@ -6,6 +6,5 @@
 		<a href="/"><button class="buttons">back</button></a>
 	</nav>
 </header>
-
 <style>
 </style>

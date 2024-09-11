@@ -63,7 +63,7 @@ main#home {
 	font-size: 120px;
 }
 .text {
-	font-size: 38px;
+	font-size: 20px;
 	font-family: var(--font-text);
 	font-weight: 600;
 	width: 970px;
@@ -96,7 +96,7 @@ header {
 	align-items: flex-start;
 	justify-content: flex-start;
 	width: 100vw;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 header.header-game {
 	margin-bottom: 0px;
@@ -225,12 +225,5 @@ header.header-game {
 	font-weight: 400;
 	font-style: normal;
 	font-size: 34px;
-}
-.button-dica {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: flex-end;
-	width: 94vw;
-	text-align: center;
+	margin-bottom: 25px;
 }
