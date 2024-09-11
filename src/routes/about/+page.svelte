@@ -4,11 +4,11 @@
 	import Header from '../../components/header.svelte';
 
 	const alunos = [
-		['Felipe Romero', 'https://github.com/feliperasilva'],
-		['Jaqueline Albertina', 'https://github.com/Jaquelinealbertina03'],
-		['Marcos Vinicius', 'https://github.com/Dido3535'],
-		['Paulo Ricardo', 'https://github.com/PauloRC0'],
-		['Weydson Lino', 'https://github.com/weydsonlino']
+		['Felipe', 'https://github.com/feliperasilva'],
+		['Jaqueline', 'https://github.com/Jaquelinealbertina03'],
+		['Marcos', 'https://github.com/Dido3535'],
+		['Paulo', 'https://github.com/PauloRC0'],
+		['Weydson', 'https://github.com/weydsonlino']
 	];
 </script>
 
@@ -19,7 +19,7 @@
 		<h2 class="tittle">About</h2>
 		<div class="container-text about">
 			<p class="text">
-				This project was developed by students from the 1st period of the TSI course at IFPE Campus
+				This project was developed by students from the 1st semester of the TSI course at IFPE Campus
 				Igarassu, in the imperative programming discipline taught by Professor Allan Diego Silva.
 				During the project, we developed the Lights Out game.
 			</p>

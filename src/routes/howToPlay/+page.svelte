@@ -10,7 +10,7 @@
 		<h3 class="tittle">How To Play</h3>
 		<div class="container-text">
 			<p class="text">
-				This is a simple puzzle game. The goal is to turn off all the lights.<br /><br />
+				This is a simple puzzle game. The goal is to turn off all the lights.
 
 				Tap a button. The neighboring buttons will also turn on or off, depending on their
 				previous state.
@@ -21,7 +21,7 @@
 			<button class="rectangle-on"></button>
 			<button class="rectangle-off"></button>
 			<button class="rectangle-on"></button>
-			<button class="rectangle-on"></button>
+			<button class="rectangle-off"></button>
 			<button class="rectangle-on"></button>
 			<button class="rectangle-off"></button>
 			<button class="rectangle-on"></button>
