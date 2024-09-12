@@ -42,8 +42,8 @@
 	function gameReset(){
 		led = [
 			[true, false, true],
-			[false, true, false],
-			[true, false, true],
+			[true, false, false],
+			[false, true, true],
 		];
 		moves = 0;
 		shuffleArray(led);
@@ -97,10 +97,11 @@ function checkVictory(){
 			{/each}
 		</div>
 		<footer class="game-footer">
-			<h3 class="moves">MOVES : {moves}</h3>
 			{#if victory}
-				<h3 class="moves">Congratulations you won with {moves} moves</h3>
+				<h3 class="moves">CONGRATULATIONS!!! YOU WON WITH {moves} MOVES</h3>
 				<button class="buttons-game" on:click={gameReset}>Play Again</button>
+			{:else}
+				<h3 class="moves">Moves: {moves}</h3>
 			{/if}
 		</footer>
 	</main>
